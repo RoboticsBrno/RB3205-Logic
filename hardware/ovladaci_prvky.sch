@@ -1,0 +1,274 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 26
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_Photo_NPN Q?
+U 1 1 6027232E
+P 9650 2100
+AR Path="/6027232E" Ref="Q?"  Part="1" 
+AR Path="/6025A839/6027232E" Ref="Q3"  Part="1" 
+F 0 "Q3" H 9840 2146 50  0000 L CNN
+F 1 "Q_Photo_NPN" H 9840 2055 50  0000 L CNN
+F 2 "my_library:SMD,3.5x2.8x1.9mm" H 9850 2200 50  0001 C CNN
+F 3 "~" H 9650 2100 50  0001 C CNN
+F 4 "0;0;0" H 9650 2100 50  0001 C CNN "JLCPCB_CORRECTION"
+F 5 "C250859" H 9650 2100 50  0001 C CNN "LCSC"
+	1    9650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60272336
+P 9750 2800
+AR Path="/60272336" Ref="R?"  Part="1" 
+AR Path="/6025A839/60272336" Ref="R13"  Part="1" 
+F 0 "R13" H 9820 2846 50  0000 L CNN
+F 1 "10k" H 9820 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9680 2800 50  0001 C CNN
+F 3 "~" H 9750 2800 50  0001 C CNN
+F 4 "0;0;0" H 9750 2800 50  0001 C CNN "JLCPCB_CORRECTION"
+F 5 "C25744" H 9750 2800 50  0001 C CNN "LCSC"
+	1    9750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3100 9750 2950
+Wire Wire Line
+	9750 2650 9750 2500
+Connection ~ 9750 2500
+Wire Wire Line
+	9750 2500 9750 2300
+$Comp
+L Device:R R?
+U 1 1 6027234F
+P 9750 1650
+AR Path="/6027234F" Ref="R?"  Part="1" 
+AR Path="/6025A839/6027234F" Ref="R5"  Part="1" 
+F 0 "R5" H 9820 1696 50  0000 L CNN
+F 1 "22k" H 9820 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9680 1650 50  0001 C CNN
+F 3 "~" H 9750 1650 50  0001 C CNN
+F 4 "0;0;0" H 9750 1650 50  0001 C CNN "JLCPCB_CORRECTION"
+F 5 "C25768" H 9750 1650 50  0001 C CNN "LCSC"
+	1    9750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 1350 9750 1500
+Wire Wire Line
+	9750 1800 9750 1900
+Wire Wire Line
+	9550 2500 9750 2500
+$Sheet
+S 5400 3500 1050 350 
+U 602B59A9
+F0 "zadani_LED.sch" 50
+F1 "zadani_LED.sch" 50
+F2 "DATA_zadani_LED" I L 5400 3600 50 
+F3 "V_LED_1" I L 5400 3750 50 
+F4 "GND" I R 6450 3650 50 
+$EndSheet
+Wire Wire Line
+	5250 3600 5400 3600
+$Sheet
+S 1800 2900 1550 1350
+U 602BAE12
+F0 "herni_pole_LED.sch" 50
+F1 "herni_pole_LED.sch" 50
+F2 "V_LED_1" I L 1800 3350 50 
+F3 "DATA_IN" I L 1800 3200 50 
+F4 "GND" I L 1800 3500 50 
+$EndSheet
+Wire Wire Line
+	1500 3200 1800 3200
+Wire Wire Line
+	1150 3350 1400 3350
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 602EC52B
+P 700 7650
+F 0 "H6" H 800 7696 50  0000 L CNN
+F 1 "MountingHole" H 800 7605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 700 7650 50  0001 C CNN
+F 3 "~" H 700 7650 50  0001 C CNN
+F 4 "0;0;0" H 700 7650 50  0001 C CNN "JLCPCB_CORRECTION"
+F 5 "-" H 700 7650 50  0001 C CNN "LCSC"
+	1    700  7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 602ECD0C
+P 700 7400
+F 0 "H5" H 800 7446 50  0000 L CNN
+F 1 "MountingHole" H 800 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 700 7400 50  0001 C CNN
+F 3 "~" H 700 7400 50  0001 C CNN
+F 4 "0;0;0" H 700 7400 50  0001 C CNN "JLCPCB_CORRECTION"
+F 5 "-" H 700 7400 50  0001 C CNN "LCSC"
+	1    700  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 602ECEE7
+P 1450 7650
+F 0 "H8" H 1550 7696 50  0000 L CNN
+F 1 "MountingHole" H 1550 7605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1450 7650 50  0001 C CNN
+F 3 "~" H 1450 7650 50  0001 C CNN
+F 4 "0;0;0" H 1450 7650 50  0001 C CNN "JLCPCB_CORRECTION"
+F 5 "-" H 1450 7650 50  0001 C CNN "LCSC"
+	1    1450 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 602ED292
+P 1450 7400
+F 0 "H7" H 1550 7446 50  0000 L CNN
+F 1 "MountingHole" H 1550 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1450 7400 50  0001 C CNN
+F 3 "~" H 1450 7400 50  0001 C CNN
+F 4 "0;0;0" H 1450 7400 50  0001 C CNN "JLCPCB_CORRECTION"
+F 5 "-" H 1450 7400 50  0001 C CNN "LCSC"
+	1    1450 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:DIN_Rail_Adapter DRA?
+U 1 1 602FB1A9
+P 1500 1350
+AR Path="/602FB1A9" Ref="DRA?"  Part="1" 
+AR Path="/6025ABB3/602FB1A9" Ref="DRA?"  Part="1" 
+AR Path="/6025A839/602FB1A9" Ref="DRA1"  Part="1" 
+F 0 "DRA1" H 1500 1615 50  0000 C CNN
+F 1 "Logo_Robotarna" H 1500 1524 50  0000 C CNN
+F 2 "my_library:RobotarnaLogo-6mm" H 1500 1150 50  0001 C CNN
+F 3 "~" H 1500 1500 50  0001 C CNN
+F 4 "-" H 1500 1350 50  0001 C CNN "LCSC"
+F 5 "0;0;0" H 1500 1350 50  0001 C CNN "JLCPCB_CORRECTION"
+	1    1500 1350
+	1    0    0    -1  
+$EndComp
+Text HLabel 9750 3100 3    50   Input ~ 0
+GND
+Text HLabel 9750 1350 1    50   Input ~ 0
+3V3
+Text HLabel 9550 2500 0    50   Input ~ 0
+SENZOR_SVETLA
+Text HLabel 1500 3200 0    50   Input ~ 0
+DATA_HERNI_LED
+Text HLabel 5250 3600 0    50   Input ~ 0
+DATA_ZADANI_LED
+Text HLabel 1050 3500 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1050 3500 1650 3500
+Text HLabel 6600 3650 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6600 3650 6450 3650
+Text HLabel 6650 4350 2    50   Input ~ 0
+GND
+Text HLabel 5000 3750 0    50   Input ~ 0
+V_LED_1
+Text HLabel 1150 3350 0    50   Input ~ 0
+V_LED_1
+$Sheet
+S 5400 4150 1050 3000
+U 602B59C6
+F0 "tlacitka.sch" 50
+F1 "tlacitka.sch" 50
+F2 "SW_11" I R 6450 5900 50 
+F3 "SW_3" I R 6450 4800 50 
+F4 "SW_5" I R 6450 5000 50 
+F5 "SW_8" I R 6450 5400 50 
+F6 "SW_9" I R 6450 5500 50 
+F7 "SW_10" I R 6450 5750 50 
+F8 "SW_2" I R 6450 4650 50 
+F9 "GND" I R 6450 4350 50 
+F10 "SW_4" I R 6450 4900 50 
+F11 "SW_7" I R 6450 5200 50 
+$EndSheet
+Text HLabel 6650 4650 2    50   Input ~ 0
+SW_2
+Text HLabel 6650 4800 2    50   Input ~ 0
+SW_3
+Text HLabel 6650 4900 2    50   Input ~ 0
+SW_4
+Text HLabel 6650 5000 2    50   Input ~ 0
+SW_5
+Text HLabel 6650 5200 2    50   Input ~ 0
+SW_7
+Text HLabel 6650 5400 2    50   Input ~ 0
+SW_8
+Text HLabel 6650 5500 2    50   Input ~ 0
+SW_9
+Text HLabel 6650 5750 2    50   Input ~ 0
+SW_10
+Text HLabel 6650 5900 2    50   Input ~ 0
+SW_11
+Wire Wire Line
+	6450 4350 6650 4350
+Wire Wire Line
+	6450 4650 6650 4650
+Wire Wire Line
+	6450 4800 6650 4800
+Wire Wire Line
+	6450 4900 6650 4900
+Wire Wire Line
+	6650 5000 6450 5000
+Wire Wire Line
+	6450 5200 6650 5200
+Wire Wire Line
+	6650 5400 6450 5400
+Wire Wire Line
+	6450 5500 6650 5500
+Wire Wire Line
+	6450 5750 6650 5750
+Wire Wire Line
+	6650 5900 6450 5900
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 6056E153
+P 1400 3350
+F 0 "#FLG0103" H 1400 3425 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 3523 50  0000 C CNN
+F 2 "" H 1400 3350 50  0001 C CNN
+F 3 "~" H 1400 3350 50  0001 C CNN
+	1    1400 3350
+	-1   0    0    1   
+$EndComp
+Connection ~ 1400 3350
+Wire Wire Line
+	1400 3350 1800 3350
+Wire Wire Line
+	5000 3750 5400 3750
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 605CD185
+P 1650 3500
+F 0 "#FLG0105" H 1650 3575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1650 3673 50  0000 C CNN
+F 2 "" H 1650 3500 50  0001 C CNN
+F 3 "~" H 1650 3500 50  0001 C CNN
+	1    1650 3500
+	-1   0    0    1   
+$EndComp
+Connection ~ 1650 3500
+Wire Wire Line
+	1650 3500 1800 3500
+$EndSCHEMATC
