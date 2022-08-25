@@ -1705,9 +1705,6 @@
     (path "/00000000-0000-0000-0000-00006025a839/00000000-0000-0000-0000-0000602fb1a9"
       (reference "DRA1") (unit 1) (value "Logo_Robotarna") (footprint "my_library:RobotarnaLogo-6mm")
     )
-    (path "/00000000-0000-0000-0000-00006025abb3/00000000-0000-0000-0000-0000602ff342"
-      (reference "DRA2") (unit 1) (value "Logo_Robotarna") (footprint "my_library:RobotarnaLogo-6mm")
-    )
     (path "/00000000-0000-0000-0000-00006025abb3/00000000-0000-0000-0000-0000602a273e"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
