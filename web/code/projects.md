@@ -1,51 +1,49 @@
-# Vzorové projekty
+# Example projects
 
 Níže najdete seznam ukázkových aplikací pro Logika.
 
-## Vzorové projekty v angličtině
+## Example projects in English
 
-- [Hra pong](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/game-pong)
-- [Hra "Simon říká"](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/game-simon)
-- [Grafika: Generativní design](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/graphics_01_generativeDesign)
-- [Grafika: Simulace ohně](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/graphics_02_fire)
-- [Grafika: Simulace Knight Ridera](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/graphics_03_knight_rider)
-- Hra had, kde je vývoj hry ukázán v různých fázích (přibývají funkce)
-    - [1. iterace](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/sachovnice)
-    - [2. iterace](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_01_dot_move_infin)
-    - [3. iterace](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_02_change_direction)
-    - [4. iterace](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_02_change_direction)
+- [The pong game](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/game-pong)
+- [Simon says game](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/game-simon)
+- [Graphics: Generative design](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/graphics_01_generativeDesign)
+- [Graphics: Fire simulation](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/graphics_02_fire)
+- [Graphics: Knight Rider](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/graphics_03_knight_rider)
+- The snake game, several iterations with more evolved functionality
+    - [1. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/sachovnice)
+    - [2. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_01_dot_move_infin)
+    - [3. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_02_change_direction)
+    - [4. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_02_change_direction)
 
-## Vzorové projekty v češtině
+## Example projects in Czech
 
-- [Vykreslení šachovnice](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/sachovnice)
+- [Chessboard pattern](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/sachovnice)
 
-# Inspirace
+# Inspiration
 
-Chceš si něco naprogramovat a nevíš co? Zkus následující!
+Do you want to program something but you have no idea what should it be? Try one of the following:
 
-## Hry
+## Single player game
 
 - logic
 - flappy bird
-- bludiště
-- plošinovka
-- piškvorky
-- bomber
+- maze
+- platform game
+- tick-tack-toe
+- bomberman
 - tetris
 - asteroids
-- miny
+- mine sweeper
 
-## Hry pro více lidí
-- lodě
-- piškvorky
-- šachy
-- dáma
+## Multi player game
+- battleships
+- tick-tack-toe
+- chess
 - snake
 - pong
 
-## Fancy grafika
-- baterka (nastavitelný jas / barva)
-- oheň
-- sinus
-- duha
-- animace
+## Graphics
+- flashlight (adjustable brightness and color)
+- fire
+- rainbow
+- various animations

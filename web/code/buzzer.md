@@ -1,16 +1,11 @@
 
-# Bzučák
+# Buzzer
 
-=== "CZ"
-	- **`bool jeZapnuty()`** : 
-	- **`void zapnout()`** : 
-	- **`void vypnout()`** : 
-=== "EN"
-	- **`bool isOn()`** :	
-	- **`void on()`** :	
-	- **`void off()`** :	
+- **`bool isOn()`** :
+- **`void on()`** :
+- **`void off()`** :
 
-## Příklad použití	
+## Example usage
 
 ```cpp
 #include "Logic.hpp"
@@ -25,6 +20,6 @@ void logicMain() {
             buzzer.off();
         }
     }
-    
+
 }
 ```
