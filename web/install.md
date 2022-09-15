@@ -18,17 +18,17 @@ The library provides [several
 examples](https://github.com/RoboticsBrno/Logic_library/tree/main/examples),
 [project
 template](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/_TEMPLATE)
-and [documentation](https://roboticsbrno.github.io/Logic_library/). There is also [quick overview of the whole functionality](code/utils.md).
+and [documentation](https://roboticsbrno.github.io/Logic_library/). There is also a [quick overview of the whole functionality](code/utils.md).
 
 ## Step-by-step guide
 
-If you are beginner, you might find handy the following step-by-step tutorial.
-The tutorial targets primary Windows users (as you know, everything
-development-related is more complicated on this system). You will nee to install:
+If you are a beginner, you might find the following step-by-step tutorial handy.
+The tutorial targets primarily Windows users (as you know, everything
+development-related is more complicated on this system). You will need to install:
 
 1. Editor [Visual Studio Code](https://code.visualstudio.com/Download)
 1. Python
-    1. For Windows 8 and higher you need to download Python from [Windows Store](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7)
+    1. For Windows 8 and higher, you need to download Python from [Windows Store](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7)
     1. For Windows 7 you will need [Python 3.8.10](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
 2. [Git version control](https://git-scm.com/download/win)
 3. USB drivers ([Windows 7](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip), [Windows 8 and higher](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip))
@@ -36,7 +36,7 @@ development-related is more complicated on this system). You will nee to install
 
 
 ## 1. Visual Studio Code
-This is the editor you will use for editing programs. [Download it from
+This is the editor you will use for editing programs. [Download it from here
 ](https://code.visualstudio.com/Download) and install it.
 
 ## 2. Python
@@ -46,14 +46,14 @@ The computer has to have the Python programming language runtime installed.
 #### Windows 8, Windows 10
 
 It is **required that you install Python via Window Store**, otherwise
-PlatformIO won't work properly. You can use [direct link to Windows
+PlatformIO will not work properly. You can use [direct link to Windows
 Store](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7) to obtain it.
 
 #### Windows 7
 
 [Download Python
 3.8](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe) (newer
-Pythons won't work on Windows 7) and install it. Make sure that "Add to PATH" is
+Pythons will not work on Windows 7) and install it. Make sure that "Add to PATH" is
 checked during the installation.
 
 ## 3. Git
@@ -75,7 +75,7 @@ You have to to extract the whole archive and run the file `CP210xVCPInstaller_x6
 Open Visual Studio Code and install platform.io extension:
 
 ![VSCode extension](assets/code_01.png)<br>
-1. Open VSCode and click the Extensions button on the left pane.
+1. Open VSCode and click the Extensions button on the left panel.
 <hr>
 
 ![VSCode extension](assets/code_02.png)<br>
@@ -83,7 +83,7 @@ Open Visual Studio Code and install platform.io extension:
 <hr>
 
 ![VSCode extension](assets/code_03.png)<br>
-3. Wait until all the packages are installed.
+3. Wait until all packages are installed.
 <hr>
 
 ![VSCode extension](assets/code_04.png)<br>
@@ -100,4 +100,4 @@ Now you should be ready to start developing your own Logic games! You can start
 with [example
 projects](https://github.com/RoboticsBrno/Logic_library/tree/main/examples).
 Open the examples using _File_ -> _Open Folder_. You can upload the program into
-Logic via small arrow on the blue status bar at the bottom.
+Logic via the small arrow on the blue status bar at the bottom.

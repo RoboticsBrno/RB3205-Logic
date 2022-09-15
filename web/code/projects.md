@@ -1,6 +1,6 @@
 # Example projects
 
-Níže najdete seznam ukázkových aplikací pro Logika.
+Below, you can find a set of example projects for Logic.
 
 ## Example projects in English
 
@@ -21,7 +21,7 @@ Níže najdete seznam ukázkových aplikací pro Logika.
 
 # Inspiration
 
-Do you want to program something but you have no idea what should it be? Try one of the following:
+Do you want to program something but you have no idea what should it be? Try one of the following project ideas.
 
 ## Single player game
 

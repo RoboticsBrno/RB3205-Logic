@@ -3,9 +3,9 @@
 Status bar is the top row of 5 LEDs marked as A-E.
 
 - **`void setState(int state)`** : Set progress
-- **`int state()`** : Returns current state
+- **`int state()`** : Return current state
 - **`void setColor(Rgb color)`** : Set the color of status bar
-- **`Rgb color()`** : Returns current color of status bar
+- **`Rgb color()`** : Return current color of status bar
 - **`void show(int intensity = 255)`** : Show current frame/state
 - **`void clear()`** : Clear the display
 - **`Rgb& at(int x)`** : Return pixel at given position

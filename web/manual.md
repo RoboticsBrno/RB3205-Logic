@@ -14,7 +14,7 @@ guide on its assembly. To assemble it, you will need the following:
 
 ![RoboSvit schéma](assets/logic-03.jpg)<br>
 2. Insert the buzzer into the board. Make sure that the polarity matches (the
-   `+` smybol on the board matches with `+` symbol on the buzzer).
+   `+` smybol on the board matches with the `+` symbol on the buzzer).
 <hr>
 
 ![RoboSvit schéma](assets/logic-04.jpg)<br>
@@ -27,8 +27,9 @@ guide on its assembly. To assemble it, you will need the following:
 
 ![RoboSvit schéma](assets/logic-07.jpg)<br>
 5. Cut pin headers and pin sockets as follows:
-	- 2× pin headers and sockets with 4 pins
-	- 1× pin header and a socket with 7 pins
+
+- 2× pin headers and sockets with 4 pins
+- 1× pin header and a socket with 7 pins
 <hr>
 
 ![RoboSvit schéma](assets/logic-10.jpg)<br>
@@ -36,11 +37,11 @@ guide on its assembly. To assemble it, you will need the following:
 <hr>
 
 ![RoboSvit schéma](assets/logic-11.jpg)<br>
-7. The finished headers and sockets.
+7. Finished headers and sockets.
 <hr>
 
 ![RoboSvit schéma](assets/logic-13.jpg)<br>
-8.  Put pin headers inside the sockets.
+8. Put pin headers inside the sockets.
 <hr>
 
 ![RoboSvit schéma](assets/logic-14.jpg)<br>
@@ -56,7 +57,7 @@ guide on its assembly. To assemble it, you will need the following:
 <hr>
 
 ![RoboSvit schéma](assets/logic-19.jpg)<br>
-12.  Screw 4 plastic spacers on the screws.
+12. Screw 4 plastic spacers on the screws.
 <hr>
 
 ![RoboSvit schéma](assets/logic-20.jpg)<br>
@@ -97,5 +98,5 @@ guide on its assembly. To assemble it, you will need the following:
 <hr>
 
 ![RoboSvit schéma](assets/logic-32.jpg)<br>
-22. Finished Logic - back view.
+22. Finished Logic – back view.
 <hr>
