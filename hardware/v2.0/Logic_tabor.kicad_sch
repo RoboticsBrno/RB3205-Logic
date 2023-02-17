@@ -336,7 +336,7 @@
     (uuid 2f24831d-7b96-4388-9dca-f54825341715)
     (property "Reference" "J7" (id 0) (at 160.02 68.58 0))
     (property "Value" "Conn_01x08" (id 1) (at 160.02 71.12 0))
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" (id 2) (at 160.02 81.28 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" (id 2) (at 160.02 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 160.02 81.28 0)
@@ -424,7 +424,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 135.89 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 144.78 111.76 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (id 2) (at 144.78 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 111.76 0)
@@ -462,7 +462,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 135.89 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 144.78 101.6 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (id 2) (at 144.78 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 101.6 0)
@@ -768,14 +768,14 @@
     (path "/00000000-0000-0000-0000-00006025a839/00000000-0000-0000-0000-0000602bae12/00000000-0000-0000-0000-0000602c081d/00000000-0000-0000-0000-0000601c58a1"
       (reference "C21") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/e77a964e-09a0-46ee-88d4-c9c46170195b"
-      (reference "C22") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/00000000-0000-0000-0000-00006025abb3/be53324f-912d-402f-9c60-3bf81cba9d8e"
+      (reference "C22") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/00cf874a-22ca-44ec-acb3-f2ecb134a5a6"
-      (reference "C23") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/00000000-0000-0000-0000-00006025abb3/8e2c2a0a-a1e0-4221-abc1-5b757109c53d"
+      (reference "C23") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/73fab6f8-d9a7-4b38-b41b-3c71c67fe103"
-      (reference "C24") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/8f43f925-c85b-4f98-9d39-4d325523de71"
+      (reference "C24") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/42c814c2-1ccf-48ba-8371-cc70437d09ca"
       (reference "C25") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -784,7 +784,7 @@
       (reference "C26") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/ae05f26a-f12a-42fb-a09b-79b1f5107ac8"
-      (reference "C27") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C27") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/a673fa3b-d490-4d62-bca2-2ad44d46987b"
       (reference "C28") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1082,6 +1082,12 @@
     )
     (path "/00000000-0000-0000-0000-00006025a839/00000000-0000-0000-0000-0000602b59c6/00000000-0000-0000-0000-0000603fb725"
       (reference "C126") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/8a29748a-6c5e-4612-a419-da14a8346273"
+      (reference "C127") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/4feacf69-9191-4ac0-bd53-ec15d13676c4"
+      (reference "C128") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/00000000-0000-0000-0000-0000602a926e"
       (reference "D1") (unit 1) (value "green") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -1449,8 +1455,8 @@
     (path "/00000000-0000-0000-0000-00006025abb3/38f02b2f-988c-4752-8862-693766ef64e1"
       (reference "J1") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-00006025abb3/00000000-0000-0000-0000-00006038cd42"
-      (reference "J2") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal")
+    (path "/00000000-0000-0000-0000-00006025abb3/7c37e9b3-6c31-4db6-97b1-0df5756e818f"
+      (reference "J2") (unit 1) (value "Micro_SD_Card") (footprint "my_library:TF-01A")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/7199a232-73f6-41ba-9a7f-9b313f9260ad"
       (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal")
@@ -1459,13 +1465,13 @@
       (reference "J4") (unit 1) (value "Conn_01x08") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
     (path "/ee089113-0d86-41d6-9b05-f26d70f5fa35"
-      (reference "J5") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x04") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/a2c655aa-ac6e-4e1c-b896-87a864540bb4"
-      (reference "J6") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J6") (unit 1) (value "Conn_01x04") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/2f24831d-7b96-4388-9dca-f54825341715"
-      (reference "J7") (unit 1) (value "Conn_01x08") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+      (reference "J7") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/f4b6a2da-b881-4d1c-a74c-8a240364b607"
       (reference "J8") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
@@ -1601,6 +1607,18 @@
     )
     (path "/00000000-0000-0000-0000-00006025abb3/7e71c2a8-31c8-4aec-bb83-7593fece605b"
       (reference "R32") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00006025abb3/d81fa49f-0176-4563-8dea-40c4bac83082"
+      (reference "R33") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00006025abb3/b73128b7-7cea-41fb-b14f-3f988c209447"
+      (reference "R34") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00006025abb3/4ccddb6d-b483-43f1-9fc3-65f55b483bfb"
+      (reference "R35") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00006025abb3/06be18ca-e7fd-42db-83ff-34e4193af719"
+      (reference "R36") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/4885591a-d886-4219-b4c8-9ab2478f4568"
       (reference "RESET1") (unit 1) (value "button") (footprint "my_library:Tactile_switch")

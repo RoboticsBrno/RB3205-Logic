@@ -1,0 +1,78 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.2+dfsg-1*
+G04 #@! TF.CreationDate,2023-02-17T05:59:19+01:00*
+G04 #@! TF.ProjectId,LED,4c45442e-6b69-4636-9164-5f7063625858,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Soldermask,Bot*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 6.0.2+dfsg-1) date 2023-02-17 05:59:19*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%ADD10C,5.700000*%
+%ADD11RoundRect,0.050000X0.850000X0.850000X-0.850000X0.850000X-0.850000X-0.850000X0.850000X-0.850000X0*%
+%ADD12O,1.800000X1.800000*%
+%ADD13RoundRect,0.050000X-0.850000X-0.850000X0.850000X-0.850000X0.850000X0.850000X-0.850000X0.850000X0*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,H5*
+X102570000Y-52450000D03*
+G04 #@! TD*
+G04 #@! TO.C,H6*
+X194570000Y-52450000D03*
+G04 #@! TD*
+G04 #@! TO.C,H7*
+X102570000Y-144450000D03*
+G04 #@! TD*
+G04 #@! TO.C,H8*
+X194570000Y-144450000D03*
+G04 #@! TD*
+D11*
+G04 #@! TO.C,J5*
+X193570000Y-107370000D03*
+D12*
+X193570000Y-104830000D03*
+X193570000Y-102290000D03*
+X193570000Y-99750000D03*
+G04 #@! TD*
+D11*
+G04 #@! TO.C,J6*
+X193570000Y-95650000D03*
+D12*
+X193570000Y-93110000D03*
+X193570000Y-90570000D03*
+X193570000Y-88030000D03*
+G04 #@! TD*
+D13*
+G04 #@! TO.C,J4*
+X103670000Y-107350000D03*
+D12*
+X103670000Y-104810000D03*
+X103670000Y-102270000D03*
+X103670000Y-99730000D03*
+X103670000Y-97190000D03*
+X103670000Y-94650000D03*
+X103670000Y-92110000D03*
+X103670000Y-89570000D03*
+G04 #@! TD*
+M02*
