@@ -486,7 +486,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809172049_Senba-Sensing-Tech-SMD3528C-50_C250859.pdf" (id 3) (at 251.46 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB_CORRECTION" "0;0;0" (id 4) (at 251.46 78.74 0)
+    (property "JLCPCB_CORRECTION" "0;0;180" (id 4) (at 251.46 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C250859" (id 5) (at 251.46 78.74 0)
