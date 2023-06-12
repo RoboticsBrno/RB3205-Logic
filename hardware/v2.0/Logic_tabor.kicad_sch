@@ -342,6 +342,12 @@
     (property "Datasheet" "~" (id 3) (at 160.02 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C124381" (id 4) (at 160.02 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB_CORRECTION" "0;8.89;90" (id 5) (at 160.02 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 42cb3c53-5361-4898-9f93-310eeaa9b7eb))
     (pin "2" (uuid 1422dda2-f7a7-49f7-be12-ad6bd4132f6f))
     (pin "3" (uuid 14064483-82c2-400e-acf8-8281bca9eb55))
@@ -384,6 +390,12 @@
     (property "Datasheet" "~" (id 3) (at 160.02 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C124378" (id 4) (at 160.02 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB_CORRECTION" "0;3.81;90" (id 5) (at 160.02 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0f4a2576-b80c-4f3c-b80a-9f1c96359fee))
     (pin "2" (uuid 202f3a4f-179c-44e5-9584-1f24729c9670))
     (pin "3" (uuid be95b295-d4a9-4097-a9db-70f155930ea8))
@@ -403,6 +415,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C124416" (id 4) (at 144.78 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 05c2e72a-d62d-4c92-92b8-db93f9459487))
@@ -428,6 +443,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C124413" (id 4) (at 144.78 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7332dbea-26ac-45c6-9465-41d6f412aa34))
@@ -468,6 +486,9 @@
     (property "Datasheet" "~" (id 3) (at 144.78 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C124413" (id 4) (at 144.78 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 09fb7f88-ad88-444d-a0b6-9bd18dc185c0))
     (pin "2" (uuid c2c3883c-3bc4-4dfb-a4b2-b45dd10586d2))
     (pin "3" (uuid 8932c3ff-d7fc-42aa-a22a-166f4cffd2f1))
@@ -487,6 +508,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 160.02 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C124378" (id 4) (at 160.02 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB_CORRECTION" "0;3.81;90" (id 5) (at 160.02 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b354e5f3-b1dd-4a89-9830-259b93c4531f))
@@ -703,7 +730,7 @@
       (reference "BOOT1") (unit 1) (value "button") (footprint "my_library:Tactile_switch")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/00000000-0000-0000-0000-00006029e624"
-      (reference "BZ1") (unit 1) (value "Buzzer") (footprint "my_library:PIEZO")
+      (reference "BZ1") (unit 1) (value "Buzzer") (footprint "Robotarna_KiCad_Library:ELKS-PIEZO")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/53385de2-e658-4d09-8e95-db18a23c9cb6"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1488,6 +1515,9 @@
     (path "/00000000-0000-0000-0000-00006025abb3/723d8a51-5c61-4b09-9c17-c7c3565755a0"
       (reference "J12") (unit 1) (value "Conn_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
+    (path "/00000000-0000-0000-0000-00006025abb3/fe1b4753-aaf8-43e2-812e-ce02e6b4ce08"
+      (reference "J13") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/d55684ea-749a-4af5-9674-faca55edf677"
       (reference "Q1") (unit 1) (value "Q_NPN_BEC") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
@@ -1497,10 +1527,10 @@
     (path "/00000000-0000-0000-0000-00006025a839/00000000-0000-0000-0000-00006027232e"
       (reference "Q3") (unit 1) (value "Q_Photo_NPN") (footprint "my_library:SMD,3.5x2.8x1.9mm")
     )
-    (path "/00000000-0000-0000-0000-00006025abb3/00000000-0000-0000-0000-0000602e6458"
+    (path "/00000000-0000-0000-0000-00006025abb3/285fbfc0-72dd-4ae6-8769-07a5a22da123"
       (reference "Q4") (unit 1) (value "Q_NMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-00006025abb3/00000000-0000-0000-0000-0000602e6450"
+    (path "/00000000-0000-0000-0000-00006025abb3/37a6cd66-8323-4442-ad9d-7eaecbfeab49"
       (reference "Q5") (unit 1) (value "Q_PMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/00000000-0000-0000-0000-0000602a0b57"
@@ -1554,7 +1584,7 @@
     (path "/00000000-0000-0000-0000-00006025abb3/f032e1f8-c586-4a4d-9b70-8af3ab453494"
       (reference "R14") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00006025abb3/00000000-0000-0000-0000-0000602e642b"
+    (path "/00000000-0000-0000-0000-00006025abb3/46797cbd-4c01-45a8-ade2-a91332135490"
       (reference "R15") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006025abb3/af17f6b3-11fc-4bbd-aba0-f73fb0159317/69a19815-571d-41be-995e-c43d51b9e87d"

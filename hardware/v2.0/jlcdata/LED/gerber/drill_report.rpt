@@ -1,5 +1,5 @@
-Drill report for LED.kicad_pcb
-Created on Fri Feb 17 05:59:19 2023
+Drill report for Logic_0.kicad_pcb
+Created on Mon Jun 12 21:26:12 2023
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'LED.drl' contains
+Drill file 'Logic_0.drl' contains
     plated through holes:
     =============================================================
     T1  0.300mm  0.0118"  (10 holes)

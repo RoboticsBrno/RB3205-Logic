@@ -483,7 +483,7 @@
     (property "Footprint" "my_library:SMD,3.5x2.8x1.9mm" (id 2) (at 256.54 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 251.46 78.74 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809172049_Senba-Sensing-Tech-SMD3528C-50_C250859.pdf" (id 3) (at 251.46 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLCPCB_CORRECTION" "0;0;0" (id 4) (at 251.46 78.74 0)
