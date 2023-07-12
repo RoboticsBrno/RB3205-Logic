@@ -1,32 +1,32 @@
 # Display
 
-- **`Rgb& at(int x, int y)`** :	Return a reference to a pixel on that position
+- **`#!cpp Rgb& at(int x, int y)`** :	Return a reference to a pixel on that position
 
-- **`void setColor(int x, int y, Rgb color)`** : Set the color of a pixel at a specified position
+- **`#!cpp void setColor(int x, int y, Rgb color)`** : Set the color of a pixel at a specified position
 
-- **`void clear()`** :	Clear the display
+- **`#!cpp void clear()`** :	Clear the display
 
-- **`void fill(Rgb color)`** :	Fill the display with color
+- **`#!cpp void fill(Rgb color)`** :	Fill the display with color
 
-- **`void drawRectangle(int x, int y, int width, int height, Rgb color, int strokeWidth = 1)`** : Draw a rectangle with specified parameters
+- **`#!cpp void drawRectangle(int x, int y, int width, int height, Rgb color, int strokeWidth = 1)`** : Draw a rectangle with specified parameters
 
-- **`void drawRectangle(const Rectangle& rect, Rgb color, int strokeWidth = 1)`** :	Draw a rectangle with specified parameters
+- **`#!cpp void drawRectangle(const Rectangle& rect, Rgb color, int strokeWidth = 1)`** :	Draw a rectangle with specified parameters
 
-- **`void drawRectangleFilled(int x, int y, int width, int height, Rgb color)`** :	Draw a filled rectangle with specified parameters
+- **`#!cpp void drawRectangleFilled(int x, int y, int width, int height, Rgb color)`** :	Draw a filled rectangle with specified parameters
 
-- **`void drawRectangleFilled(const Rectangle& rect, Rgb color)`** : Draw a filled rectangle with specified parameters
+- **`#!cpp void drawRectangleFilled(const Rectangle& rect, Rgb color)`** : Draw a filled rectangle with specified parameters
 
-- **`void drawSquare(int x, int y, int size, Rgb color, int strokeWidth = 1)`** : Draw a square with specified parameters
+- **`#!cpp void drawSquare(int x, int y, int size, Rgb color, int strokeWidth = 1)`** : Draw a square with specified parameters
 
-- **`void drawSquareFilled(int x, int y, int size, Rgb color)`** :	Draw a filled square with specified parameters
+- **`#!cpp void drawSquareFilled(int x, int y, int size, Rgb color)`** :	Draw a filled square with specified parameters
 
-- **`void drawCircle(int centerX, int centerY, int radius, Rgb color)`** :	Draw a circle with specified parameters
+- **`#!cpp void drawCircle(int centerX, int centerY, int radius, Rgb color)`** :	Draw a circle with specified parameters
 
-- **`void drawCircleFilled(int centerX, int centerY, int radius, Rgb color)`** : Draw a filled circle with specified parameters
+- **`#!cpp void drawCircleFilled(int centerX, int centerY, int radius, Rgb color)`** : Draw a filled circle with specified parameters
 
-- **`void drawLine(int x1, int y1, int x2, int y2, Rgb color, int strokeWidth = 1)`** :	Draw a line
+- **`#!cpp void drawLine(int x1, int y1, int x2, int y2, Rgb color, int strokeWidth = 1)`** :	Draw a line
 
-- **`void show(int intensity = 255)`** : Show a prepared frame on the display
+- **`#!cpp void show(int intensity = 255)`** : Show a prepared frame on the display
 
 ## Example
 

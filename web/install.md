@@ -99,5 +99,10 @@ Open Visual Studio Code and install platform.io extension:
 Now you should be ready to start developing your own Logic games! You can start
 with [example
 projects](https://github.com/RoboticsBrno/Logic_library/tree/main/examples).
-Open the examples using _File_ -> _Open Folder_. You can upload the program into
-Logic via the small arrow on the blue status bar at the bottom.
+Open the examples using `File` -> `Open Folder`.
+
+![VSCode extension](assets/code_06.png)<br>
+After opening the example, you have to configure your Logic version. Click to the `Defaul <PROJECT>` and choose your Logic version.
+
+![VSCode extension](assets/code_07.png)<br>
+Then you can build and upload the example to your Logic. Use the buttons in the bottom left corner to do so.

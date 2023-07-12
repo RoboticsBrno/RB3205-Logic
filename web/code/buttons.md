@@ -2,7 +2,7 @@
 
 ## Direct Button Reading
 
-- **`buttons.read(gpio_num_t gpio)`** :
+- **`#!cpp buttons.read(gpio_num_t gpio)`** :
 
 ## Button Names
 - `Enter`

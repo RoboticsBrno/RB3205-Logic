@@ -1,61 +1,90 @@
 site_name: Logic | Robotárna
 site_url: https://logic.robotickytabor.cz/
-theme:
-    name: material
-    palette:
-        scheme: slate
-        primary: deep orange
-        accent: deep orange
-    language: en
-    logo: assets/logo.png
-    favicon: assets/logo180.png
-    features:
-        - navigation.expand
-        - navigation.instant
-        - navigation.tabs
-    custom_dir: web/overrides
 
+repo_name: RoboticsBrno/RB3205-Logic
+repo_url: https://github.com/RoboticsBrno/RB3205-Logic
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep-orange
+      accent: deep-orange
+      toggle:
+        icon: material/weather-sunny
+    - scheme: default
+      primary: deep-orange
+      accent: deep-orange
+      toggle:
+        icon: material/weather-night
+  language: en
+  logo: assets/logo.png
+  favicon: assets/logo180.png
+  features:
+    - navigation.expand
+    - navigation.instant
+    - navigation.tabs
+    - content.code.copy
+  custom_dir: web/overrides
 
 docs_dir: web
 
 plugins:
-    - awesome-pages
-    - search
+  - search
+  - open-in-new-tab
+  - glightbox:
 
 markdown_extensions:
   - pymdownx.highlight
+  - pymdownx.inlinehilite
   - pymdownx.superfences
+  - pymdownx.keys
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.keys
   - attr_list
   - pymdownx.tabbed
+  - meta
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets:
+      url_download: True
   - pymdownx.tasklist:
       custom_checkbox: true
+  - toc:
+      permalink: "¤"
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
-    - README.md
-    - manual.md
-    - install.md
-    - Programming:
-        - code/intro.md
-        - code/utils.md
-        - code/buttons.md
-        - code/display.md
-        - code/statusBar.md
-        - code/buzzer.md
-        - code/projects.md
+  - README.md
+  - manual.md
+  - install.md
+  - Programming:
+      - code/intro.md
+      - code/utils.md
+      - code/buttons.md
+      - code/display.md
+      - code/statusBar.md
+      - code/buzzer.md
+      - code/projects.md
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/RoboticsBrno
-      name: IREE Discord Server
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/RobotikaBrno
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/robotarna
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@robotikabrno-robotarnaasps2392
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/_robotarna_
 
 extra_javascript:
-  - assets/highlight/highlight.min.js
   - assets/config.js
 extra_css:
-  - assets/highlight/default.min.css
   - assets/style.css

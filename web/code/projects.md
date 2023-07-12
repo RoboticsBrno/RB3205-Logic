@@ -10,10 +10,10 @@ Below, you can find a set of example projects for Logic.
 - [Graphics: Fire simulation](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/graphics_02_fire)
 - [Graphics: Knight Rider](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/graphics_03_knight_rider)
 - The snake game, several iterations with more evolved functionality
-    - [1. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/sachovnice)
+    - [1. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_01_dot_move)
     - [2. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_01_dot_move_infin)
     - [3. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_02_change_direction)
-    - [4. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_02_change_direction)
+    - [4. iteration](https://github.com/RoboticsBrno/Logic_library/tree/main/examples/snake_03_tail)
 
 ## Example projects in Czech
 
