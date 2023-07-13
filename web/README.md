@@ -16,11 +16,26 @@ the page is available, however, in Czech. You will find more project there. You
 can also see our [GitHub](https://github.com/RoboticsBrno) for find out more
 about our other projects.
 
+## HW revisions
+
+There are multiple HW revisions out in the wild, with the v2 being a major overhaul.
+
+### Changelog:
+
+#### v2.0
+
+- new ESP32 S3 chip (instead of "normal" ESP32)
+- [SD Card slot](code/sdcard.md)
+- [PMOD connector](code/pmod.md) (a standardized interface to connect various peripherials)
+- revised button layout with two direction crosses
+- piezo instead of just a buzzer (so you can play different tones)
+- brighther smart LEDs
+
 === "Logic v2"
-	![RoboSvit schéma](assets/fancy/Logic-v2-img1.png)
-	![RoboSvit schéma](assets/fancy/Logic-v2-img3.png)
-	![RoboSvit schéma](assets/fancy/Logic-v2-img2.png)
+![RoboSvit schéma](assets/fancy/Logic-v2-img1.png)
+![RoboSvit schéma](assets/fancy/Logic-v2-img3.png)
+![RoboSvit schéma](assets/fancy/Logic-v2-img2.png)
 
 === "Logic v1"
-	![RoboSvit schéma](assets/fancy/Logic_fancy-1.png)
-	![RoboSvit schéma](assets/fancy/Logic_fancy-2.png)
+![RoboSvit schéma](assets/fancy/Logic_fancy-1.png)
+![RoboSvit schéma](assets/fancy/Logic_fancy-2.png)
