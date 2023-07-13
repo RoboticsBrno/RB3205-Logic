@@ -16,5 +16,11 @@ the page is available, however, in Czech. You will find more project there. You
 can also see our [GitHub](https://github.com/RoboticsBrno) for find out more
 about our other projects.
 
-![RoboSvit schéma](assets/fancy/Logic_fancy-1.png)
-![RoboSvit schéma](assets/fancy/Logic_fancy-2.png)
+=== "Logic v2"
+	![RoboSvit schéma](assets/fancy/Logic-v2-img1.png)
+	![RoboSvit schéma](assets/fancy/Logic-v2-img3.png)
+	![RoboSvit schéma](assets/fancy/Logic-v2-img2.png)
+
+=== "Logic v1"
+	![RoboSvit schéma](assets/fancy/Logic_fancy-1.png)
+	![RoboSvit schéma](assets/fancy/Logic_fancy-2.png)

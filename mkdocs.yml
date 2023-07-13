@@ -32,7 +32,13 @@ docs_dir: web
 plugins:
   - search
   - open-in-new-tab
-  - glightbox:
+  - glightbox
+  - resize-images:
+      source-dir: assets-large
+      target-dir: assets
+      enable_cache: True
+      size: [1000, 800]
+      extensions: [".jpg", ".jpeg", ".png", ".gif"]
 
 markdown_extensions:
   - pymdownx.highlight
