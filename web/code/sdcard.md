@@ -1,6 +1,6 @@
 # SD card
 
-The Logic 2.0 board has an sdcard slot which you can use to store or load data from FAT32-formatted cards.
+The Logic v2 board has an sdcard slot which you can use to store or load data from FAT32-formatted cards.
 
 !!! info
 
@@ -21,7 +21,7 @@ The Logic 2.0 board has an sdcard slot which you can use to store or load data f
 
 ## Example init code
 
-The SD card has some busy init code, but after that, you may use standard C or C++ functions to access the filesystem, just like on a desktop.
+The SD card has some long-ish init code, but after that, you may use standard C or C++ functions to access the filesystem, just like on a desktop.
 
 ```cpp
 #include "Logic.hpp"

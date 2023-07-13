@@ -18,7 +18,7 @@ Pinout is visible from the underside of the board as white labels.
 
 ## Voltage setting
 
-On the v2.0 HW revision, there are three pinheades to be used to set the voltage on PMOD VCC.
+On the v2.0 HW revision, there are three pinheads to be used to set the voltage on PMOD VCC.
 They are unfortunatelly without labels, so here are photos of the 3.3 V and 5 V settings:
 
 ![PMOD voltage](../assets/pmod.jpg)
