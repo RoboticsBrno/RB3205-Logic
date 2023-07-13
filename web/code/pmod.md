@@ -4,7 +4,7 @@ The Logic v2 and newer has a PMOD connector, which is a standardized way to conn
 
 !!! info
 
-    The 1.x HW revisions do not PMOD connector.
+    The 1.x HW revisions do not have PMOD connector.
 
 ## Pinout
 
