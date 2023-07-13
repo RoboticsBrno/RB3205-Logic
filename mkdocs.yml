@@ -45,6 +45,11 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - admonition
   - pymdownx.details
   - pymdownx.keys
@@ -75,6 +80,8 @@ nav:
       - code/display.md
       - code/statusBar.md
       - code/buzzer.md
+      - code/sdcard.md
+      - code/pmod.md
       - code/projects.md
 
 extra:
