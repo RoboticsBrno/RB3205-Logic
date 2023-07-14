@@ -22,7 +22,6 @@ theme:
   favicon: assets/logo180.png
   features:
     - navigation.expand
-    - navigation.instant
     - navigation.tabs
     - content.code.copy
   custom_dir: web/overrides
@@ -33,6 +32,17 @@ plugins:
   - search
   - open-in-new-tab
   - glightbox
+  - i18n:
+      default_language: !ENV [DEFAULT_LANGUAGE, "en"]
+      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
+      docs_structure: suffix
+      languages:
+        default:
+          name: Default (en)
+          build: true
+        cs:
+          name: Czech (cs)
+          build: true
   - resize-images:
       source-dir: assets-large
       target-dir: assets
