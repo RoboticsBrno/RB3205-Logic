@@ -26,3 +26,5 @@ fp-info-cache
 .DS_Store
 
 .venv
+
+*.zip

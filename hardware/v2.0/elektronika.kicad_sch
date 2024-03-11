@@ -2479,7 +2479,7 @@
     (property "Value" "Buzzer" (at 59.69 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Robotarna_KiCad_Library:PKLCS1212E-(RH-Logic_piezzo)" (at 59.055 130.81 90)
+    (property "Footprint" "RKL-StandardPackages:PKLCS1212E-(RH-Logic_piezzo)" (at 59.055 130.81 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1808132343_Murata-Electronics-PKLCS1212E4001-R1_C113159.pdf" (at 59.055 130.81 90)
