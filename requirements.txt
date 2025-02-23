@@ -1,6 +1,6 @@
-mkdocs==1.4.3
-mkdocs-material==9.1.17
+mkdocs==1.5.3
+mkdocs-material==9.4.5
 mkdocs-open-in-new-tab==1.0.2
 mkdocs-glightbox==0.3.4
 mkdocs-resize-images==1.0.1
-mkdocs-static-i18n==0.56
+mkdocs-static-i18n==1.1.0

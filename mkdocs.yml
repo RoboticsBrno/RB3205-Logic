@@ -37,12 +37,15 @@ plugins:
       default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
       docs_structure: suffix
       languages:
-        default:
-          name: Default (en)
+        - locale: en
+          default: true
+          name: English (en)
           build: true
-        cs:
+        - locale: cs
+          default: false
           name: Czech (cs)
-          build: true
+      reconfigure_material: true
+      reconfigure_search: true
   - resize-images:
       source-dir: assets-large
       target-dir: assets
